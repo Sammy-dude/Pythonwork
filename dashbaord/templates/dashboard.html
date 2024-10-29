@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        img {
+            width: 400px;  /* Set image size */
+            height: auto;
+        }
+        div {
+            margin-bottom: 24px;
+        }
+        strong {
+            font-size: 22px;  /* Larger, bolder font for build numbers */
+            color: #333;  /* Dark grey color for text */
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Results Dashboard</h1>
+    {% for image in images %}
+        <div>
+            <strong>Build Number: {{ loop.index }}</strong>  <!-- Display build number in bold -->
+            <img src="{{ url_for('static', filename=image) }}" alt="Pie Chart for Build {{ loop.index }}">
+        </div>
+    {% endfor %}
+</body>
+</html>
