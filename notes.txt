@@ -4,13 +4,14 @@ npx playwright test --ui
   npx playwright codegen  --browser firefox --headed mode 
   https://www.saucedemo.com/
  python3 -u -m pytest test_drop.py
- npx playwright install //this how to install playwright
+ npx playwright install # this is now to install the package yes
 
 
   npx playwright codegen https://demo.automationtesting.in/Register.html
   https://demo.automationtesting.in/Index.html
   https://www.saucedemo.com/
-   npx playwright codegen 
+   npx playwright codegen # this is how to install the playeright
+
    
   https://ultimateqa.com/dummy-automation-websites/#1_SauceDemo_E-Commerce
   
