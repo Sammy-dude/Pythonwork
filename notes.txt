@@ -1,0 +1,104 @@
+npx playwright test --ui 
+ npx playwright --help  
+ npx playwright codegen -o --output=ousa.txt
+  npx playwright codegen  --browser firefox --headed mode 
+  https://www.saucedemo.com/
+ python3 -u -m pytest test_drop.py
+ npx playwright install
+
+
+  npx playwright codegen https://demo.automationtesting.in/Register.html
+  https://demo.automationtesting.in/Index.html
+  https://www.saucedemo.com/
+   npx playwright codegen 
+   
+  https://ultimateqa.com/dummy-automation-websites/#1_SauceDemo_E-Commerce
+  
+  git remote add origin https://github.com/Sammy-dude/Pythonwork
+  
+  Your public key has been saved in ousa.pub
+/Users/ousamasaloum/.ssh/id_ed25519
+git push -u origin main
+ls -al ~/.ssh
+ssh-keygen -t ed25519 -C "osaloum50@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+git remote set-url origin git@github.com:Sammy-dude/Pythonwork.git
+cat ~/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPwP2hWfnluQoXBCHGIJgXTr3umOidnyiaAZpqx9z7bx osaloum50@gmail.com.com
+SSH Setup and Repository Connection
+Check if an SSH key already exists:
+
+ls -al ~/.ssh
+Generate a new SSH key (if needed):
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+Start the SSH agent:
+
+eval "$(ssh-agent -s)"
+Add the SSH key to the SSH agent:
+
+ssh-add ~/.ssh/id_ed25519
+Copy the public key:
+
+cat ~/.ssh/id_ed25519.pub
+Add the SSH key to GitHub:
+
+Go to GitHub’s SSH Keys page, click "New SSH Key," and paste the key.
+Test the SSH connection to GitHub:
+
+ssh -T git@github.com
+Set the remote URL to use SSH:
+
+git remote set-url origin git@github.com:Sammy-dude/Pythonwork.git
+Pushing Local Changes to GitHub
+Link your local repository to the remote:
+
+git remote add origin https://github.com/Sammy-dude/Pythonwork.git
+Stage changes:
+
+git add .
+Commit changes:
+
+git commit -m "Initial commit from local folder"
+Push changes to GitHub:
+
+git push -u origin main
+Creating and Pushing a New Branch
+Create and switch to a new branch:
+
+git checkout -b branch_name
+Push the branch to the remote repository:
+
+git push -u origin branch_name
+Useful Git Commands
+Check Git status:
+
+git status
+View changes in staged and unstaged files (diff):
+
+Unstaged changes: git diff
+Staged changes: git diff --staged
+List all local branches:
+
+git branch
+List all remote branches:
+
+git branch -r
+List all local and remote branches:
+
+git branch -a
+Show recent commit history:
+
+git log
+View a summary of all commits with one line each:
+
+git log --oneline
+Check remote repository URL(s):
+
+git remote -v
+Fetch latest changes from the remote repository without merging:
+
+git fetch
+Merge another branch into your current branch:
+
+git merge branch_name
