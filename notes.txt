@@ -4,7 +4,7 @@ npx playwright test --ui
   npx playwright codegen  --browser firefox --headed mode 
   https://www.saucedemo.com/
  python3 -u -m pytest test_drop.py
- npx playwright install # this is now to install the package yes
+ npx playwnwnright install # this is now to install the package yes
 
 
   npx playwright codegen https://demo.automationtesting.in/Register.html
