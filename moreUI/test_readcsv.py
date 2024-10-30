@@ -1,20 +1,12 @@
-import csv
+import csvutil
 import pytest
 from playwright.sync_api import sync_playwright
 
 
 # Function to read data from the CSV file
-def read_test_data():
-    data = []
-    with open("test_data.csv", "r") as file:
-        csv_reader = csv.DictReader(file)
-        for row in csv_reader:
-            data.append(row)
-    return data
-
 
 # Parametrize the test with data from the CSV file
-@pytest.mark.parametrize("data", read_test_data())
+@pytest.mark.parametrize("data", csvutil.read_test_data())
 def test_login(data):
     username = data["username"]
     password = data["password"]
