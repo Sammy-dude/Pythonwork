@@ -25,7 +25,7 @@ def write_test_data(data, output_file):
             csv_writer.writerow(row)
 
 
-# Read data from the original CSV file
+# Read data from the original CSV file you can also create a data dic and upload the data
 data = read_test_data()
 print("Read data:", data)
 
