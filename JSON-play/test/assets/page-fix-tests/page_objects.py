@@ -74,7 +74,7 @@ class Github:
             all_texts.append(text)
             # Locate the "Security" label
         security_label = self.page.get_by_role("link", name="Security Find and fix")
-            # page.get_by_role("link", name="Security Find and fix")
+            # page.get_by_role("link", name="Security Find and fix") localtod
 
             # Validate that the Security label is visible and has the correct text
         is_visible = security_label.is_visible()
