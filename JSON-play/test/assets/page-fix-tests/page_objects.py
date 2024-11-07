@@ -61,8 +61,8 @@ class Github:
         product_link = self.page.get_by_role("button", name="Product")
         product_link.click()
         print(product_link.all)
-        print(product_link.all.count)
-        print(product_link.count)
+        # print(product_link.all.count)
+        # print(product_link.count)
 
         all_texts = []
         for item in product_link.all():  # `.all()` returns all matching elements as a list
